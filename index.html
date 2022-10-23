@@ -1,21 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-   <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Weather Dashboard</title>
-        <link rel="stylesheet" type="text/css" href="Assets\style.css" />
-   </head>
+<head>
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="Assets/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script async src="https://cse.google.com/cse.js?cx=51dc8086362f649f7"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+ <div class ="container-fluid bg-1">
+     <h1>Weather Dashboard</h1>
+  </div>
 
-    <body>
-       <header class = "dashboard">
-          <h1> Weather Dashboard</h1>
-       </header>
-       <div class = "container">
-       <div class = "city">
-            <h2>City</h2>    
-       </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>City Search</h2></div>
+      <div class="col-sm-7">
+        <h2>City Result</h2>
+        <div class="col-sm-2">
+            <h3 id = "col-0"></h3>
+            <p id="day0-temp"></p>
+            <p id="day0-wind"></p>
+            <p id="day0-humidity"></p>
+    </div>
+  </div>
+    <div class="form-container">
+              <form class="city">
+                  <input id="search" type="text" class="input"></input>
+                  <button type="input" class="search-btn">search</button>
+                  <button id="clear" class="clear-results" >clear</button>
+              </form>
+    </div>
+         <div class="results-container">
+            <ul class="results-list" id="list"></ul>
+        </div>
+    </div>
 
-       <script src="Assets\script.js"></script>
-    </body>
-</html>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+        <h3 id = "col-0"></h3>
+        <p id="day0-temp"></p>
+        <p id="day0-wind"></p>
+        <p id="day0-humidity"></p>
+    
+        <h3 id = "col-1">Column 1</h3>
+        <p id="day1-temp">test</p>
+        <p id="day1-wind">Lorem ipsum dolor..</p>
+        <p id="day1-humidity">Lorem ipsum dolor..</p>
+      </div>
+      <div class="col-sm-2">
+        <h3>Column 2</h3>
+        <p>Lorem ipsum dolor..</p>
+      </div>
+      <div class="col-sm-2">
+        <h3>Column 3</h3>
+        <p>Lorem ipsum dolor..</p>
+      </div>
+      <div class="col-sm-2">
+        <h3>Column 4</h3>
+        <p>Lorem ipsum dolor..</p>
+      </div>
+      <div class="col-sm-2">
+        <h3>Column 5</h3>
+        <p>Lorem ipsum dolor..</p>
+      </div>
+    </div>
+  </div>
+  <script src="Assets/script.js"></script>
+</body>
