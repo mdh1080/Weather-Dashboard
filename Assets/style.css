@@ -31,11 +31,11 @@ h2 {
   bottom: 0;
   left: 0;
   width: 75%;
-  justify-content: stretch; 
+  justify-content: stretch;
   padding:0px;
   margin-left: 300px;
 }
-.row { 
+.row {
   display: inline-block;
 }
 
@@ -52,11 +52,15 @@ h2 {
   font-size: 15px;
 }
 
-.city {  
+.city {
   margin-top: 50px;
   margin-left: 200px;
 }
-h3 { 
+h3 {
   font-size: 20px;
-} 
+}
 
+.today {
+  border: 1px solid #555;
+  padding: 1ex;
+}

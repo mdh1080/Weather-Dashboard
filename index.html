@@ -13,37 +13,31 @@
 <body>
  <div class ="container-fluid bg-1">
      <h1>Weather Dashboard</h1>
-  </div>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-4">
-        <h2 class = "city search">City Search</h2></div>
-      <div class="col-sm-8">
-        <h2>Day 1</h2>
-        <div class="col-sm-2">
-            <h3 id = "col-0"></h3>
-            <h3>Temperature</h3>
-            <p id="day0-temp"></p>
-            <h3>Wind Speed</h3>
-            <p id="day0-wind"></p>
-            <h3>Humidity</h3>
-            <p id="day0-humidity"></p>
-    </div>
-  </div>
     <div class="form-container">
-              <form class="city">
+        <h2 class = "search">Search for a city:</h2>
+              <form>
                   <input id="search" type="text" class="input"></input>
                   <button type="input" class="search-btn">search</button>
                   <button id="clear" class="clear-results" >clear</button>
               </form>
     </div>
 
+  <p></p>
+
   <div class="container">
-    <div class="row">
-      <div class="col-sm-2">
-        <h2>Day 2</h2>
+    <div class="today"
+        <div class="col-md-5">
+            <h3 id = "col-0"></h3>
+            <img id="icon-0" />
+            <h3>Temperature: <span id="day0-temp"></span></h3>
+            <h3>Wind Speed: <span id="day0-wind"></span></h3>
+            <h3>Humidity: <span id="day0-humidity"></span></h3>
+      </div>
+    <div>
+      <div class="col-sm-3">
         <h3 id = "col-1"></h3>
+        <img id="icon-1" />
         <h3>Temperature</h3>
         <p id="day1-temp"></p>
         <h3>Wind Speed</h3>
@@ -51,9 +45,9 @@
         <h3>Humidity</h3>
         <p id="day1-humidity"></p>
       </div>
-      <div class="col-sm-2">
-        <h2>Day 3</h2>
+      <div class="col-sm-3">
         <h3 id = "col-2"></h3>
+        <img id="icon-2" />
         <h3>Temperature</h3>
         <p id="day2-temp"></p>
         <h3>Wind Speed</h3>
@@ -61,9 +55,9 @@
         <h3>Humidity</h3>
         <p id="day2-humidity"></p>
       </div>
-      <div class="col-sm-2">
-        <h2>Day 4</h2>
+      <div class="col-sm-3">
         <h3 id = "col-3"></h3>
+        <img id="icon-3" />
         <h3>Temperature</h3>
         <p id="day3-temp"></p>
         <h3>Wind Speed</h3>
@@ -71,9 +65,9 @@
         <h3>Humidity</h3>
         <p id="day3-humidity"></p>
       </div>
-      <div class="col-sm-2">
-        <h2>Day 5</h2>
+      <div class="col-sm-3">
         <h3 id = "col-4"></h3>
+        <img id="icon-4" />
         <h3>Temperature</h3>
         <p id="day4-temp"></p>
         <h3>Wind Speed</h3>
@@ -82,7 +76,12 @@
         <p id="day4-humidity"></p>
       </div>
     </div>
+    </div>
+  </div>
   </div>
   <footer></footer>
   <script src="Assets/script.js"></script>
 </body>
+
+
+
